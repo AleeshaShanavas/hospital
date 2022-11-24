@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+ {% load static %} 
+ {% block title%} About {% endblock%} {% block content%}
+<div class="d-flex m-5">
+  <div class="m-5 align-middle" >
+    <img src="{% static 'image/about.jpg'%}" />
+  </div>
+  <div class="mt-5">
+    <h2 class="text-center mb-3">About Us</h2>
+    <p>
+      City Hospital, one of the earliest hospitals in Malabar, has been in
+      service to the cause of health for nearly half a century. This 400 bedded
+      super-specialty hospital, most strategically situated in the heart of the
+      city at Mavoor Road junction, Calicut, is well equipped to handle medical
+      emergencies and is considered to be one of the best referral hospitals in
+      the region. The easy accessibility to the hospital by road, rail and air
+      and the team of well qualified and dedicated doctors and paramedical staff
+      make it a preferred health care destination.
+    </p>
+  </div>
+</div>
+{% endblock %}
